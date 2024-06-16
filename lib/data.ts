@@ -35,28 +35,37 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Senior Full Stack Developer",
+    location: "Token Metrics",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      `Implemented login system integration with Google and Twitter, and successfully migrated 150k users from Okta user authentication to Supabase auth, reducing costs from $30k/month to $0. 
+       Developed NFT-based wallet connect login system with enhanced security measures. 
+      Created Telegram bots featuring various services including alerts for bullish and bearish indicators, price predictions, etc., for crypto tokens. 
+      Designed a top-tier frontend for chatbots integrated with AI backend using ChatGPT and proprietary data. 
+      Engineered a robust payment system incorporating Stripe payment, PayPal, and Coinpayment gateways.`,
+    icon: React.createElement(FaReact),
+    date: "Nov 2022 - March 2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    title: "Full Stack Developer",
+    location: "Skugal Technology",
+    description:`Worked on the snowflake, a cloud SQL-based database platform.
+    Made robust payment gateways. Stripe, PayPal, and coin payment and their webhooks and IPN. 
+    Build Some Cron-jobs for various functionality.
+    Worked In NX workspace, which is widely used in various projects.`,
+    icon: React.createElement(FaReact),
+    date: "Feb 2022 - Nov 2022",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Kudos Finance",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      `Worked on sub-wallet APIs for a virtual account (VA). 
+      Worked on various Microservices like geolocation, pin codes, 
+      reducing EMI calculator, monthly dues. 
+      Build react component-based screens application that can be use later.`,
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Sep 2017 - Aug 2021",
   },
 ] as const;
 
@@ -94,14 +103,9 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Supabase"
 ] as const;
