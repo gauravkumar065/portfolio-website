@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -12,17 +13,20 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  url,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["0 1", "1.33 1"],
   });
+  const router = useRouter();
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
   return (
     <motion.div
+      onClick={() => router.push(url)}
       ref={ref}
       style={{
         scale: scaleProgess,
