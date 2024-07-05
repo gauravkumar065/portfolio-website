@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import rmtdevImg from "@/public/project2.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -79,20 +79,20 @@ export const projectsData = [
     url: "https://dev-flow-wine.vercel.app"
   },
   {
-    title: "rmtDev",
+    title: "Personal Banking",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "It is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to manages their finances.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Appwrite", "Plaid", "Dwolla"],
     imageUrl: rmtdevImg,
-    url: "https://dev-flow-wine.vercel.app"
+    url: "https://personal-banking.vercel.app"
   },
   {
     title: "Word Analytics",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A personal portfolio website",
+    tags: ["React", "Next.js", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
-    url: "https://dev-flow-wine.vercel.app"
+    url: "https://portfolio-website-sand-three-26.vercel.app"
   },
 ] as const;
 
