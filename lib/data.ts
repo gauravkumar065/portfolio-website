@@ -87,7 +87,7 @@ export const projectsData = [
     url: "https://personal-banking.vercel.app"
   },
   {
-    title: "Word Analytics",
+    title: "Personal Portfolio page",
     description:
       "A personal portfolio website",
     tags: ["React", "Next.js", "Tailwind", "Framer"],
